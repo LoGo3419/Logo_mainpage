@@ -139,6 +139,22 @@ export const menuItems = [
                 ]
             },
             {
+                id: 97,
+                label: 'menuitems.file.text',
+                subItems: [
+                    {
+                        id: 99,
+                        label: 'menuitems.file.list.upload',
+                        link: '/file/upload'
+                    },
+                    {
+                        id: 98,
+                        label: 'menuitems.file.list.download',
+                        link: '/file/download'
+                    }
+                ]
+            },
+            {
                 id: 28,
                 label: 'menuitems.ecommerce.text',
                 subItems: [

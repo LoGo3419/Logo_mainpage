@@ -113,6 +113,10 @@
       "text": "Apps"
     },
     "file": {
+      "list":{
+        "upload" : "Upload",
+        "download" : "Download"
+      },
       "text": "File"
     },
     "guestbook": {

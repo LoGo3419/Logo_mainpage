@@ -88,12 +88,20 @@ export default [
         component: () => import('../views/pages/chat/index')
     },
     {
-        path: '/file',
-        name: 'File',
+        path: '/file/upload',
+        name: 'File Upload',
         meta: {
             authRequired: true,
         },
-        component: () => import('../views/pages/file/index')
+        component: () => import('../views/pages/file/upload')
+    },
+    {
+        path: '/file/download',
+        name: 'File Download',
+        meta: {
+            authRequired: true,
+        },
+        component: () => import('../views/pages/file/download')
     },
     {
         path: '/guestbook',
